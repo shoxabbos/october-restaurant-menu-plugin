@@ -1,0 +1,34 @@
+plugin:
+    name: 'shohabbos.restaurantmenu::lang.plugin.name'
+    description: 'shohabbos.restaurantmenu::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-columns
+    homepage: ''
+permissions:
+    shohabbos.restaurantmenu.manage_category:
+        tab: 'shohabbos.restaurantmenu::lang.plugin.name'
+        label: 'shohabbos.restaurantmenu::lang.category.manage_categories'
+    shohabbos.restaurantmenu.manage_item:
+        tab: 'shohabbos.restaurantmenu::lang.plugin.name'
+        label: 'shohabbos.restaurantmenu::lang.item.manage_item'
+navigation:
+    restaurant:
+        label: 'shohabbos.restaurantmenu::lang.plugin.name'
+        url: shohabbos/restaurantmenu/items
+        icon: icon-columns
+        permissions:
+            - shohabbos.restaurantmenu.manage_item
+            - shohabbos.restaurantmenu.manage_category
+        sideMenu:
+            categories:
+                label: 'shohabbos.restaurantmenu::lang.category.backend_menu_lable'
+                url: shohabbos/restaurantmenu/categories
+                icon: icon-list-ol
+                permissions:
+                    - shohabbos.restaurantmenu.manage_category
+            items:
+                label: 'shohabbos.restaurantmenu::lang.item.backend_menu_label'
+                url: shohabbos/restaurantmenu/items
+                icon: icon-coffee
+                permissions:
+                    - shohabbos.restaurantmenu.manage_item

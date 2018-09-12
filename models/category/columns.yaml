@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'shohabbos.restaurantmenu::lang.category.title'
+        type: text
+        searchable: true
+        sortable: true
+    desc:
+        label: 'shohabbos.restaurantmenu::lang.category.desc'
+        type: text
+        searchable: true
+        sortable: true

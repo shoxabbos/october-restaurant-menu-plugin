@@ -1,0 +1,11 @@
+name: Categories
+modelClass: shohabbos\RestaurantMenu\Models\Category
+form: $/shohabbos/restaurantmenu/models/category/fields.yaml
+defaultRedirect: shohabbos/restaurantmenu/categories
+create:
+    redirect: 'shohabbos/restaurantmenu/categories/update/:id'
+    redirectClose: shohabbos/restaurantmenu/categories
+update:
+    redirect: shohabbos/restaurantmenu/categories
+    redirectClose: shohabbos/restaurantmenu/categories
+preview: {  }

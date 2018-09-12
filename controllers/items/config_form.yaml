@@ -1,0 +1,11 @@
+name: Items
+modelClass: shohabbos\RestaurantMenu\Models\Item
+form: $/shohabbos/restaurantmenu/models/item/fields.yaml
+defaultRedirect: shohabbos/restaurantmenu/items
+create:
+    redirect: 'shohabbos/restaurantmenu/items/update/:id'
+    redirectClose: shohabbos/restaurantmenu/items
+update:
+    redirect: shohabbos/restaurantmenu/items
+    redirectClose: shohabbos/restaurantmenu/items
+preview: {  }

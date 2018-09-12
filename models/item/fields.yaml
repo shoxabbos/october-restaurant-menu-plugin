@@ -1,0 +1,31 @@
+fields:
+    title:
+        label: 'shohabbos.restaurantmenu::lang.item.title'
+        span: auto
+        required: 1
+        type: text
+    category_id:
+        label: 'shohabbos.restaurantmenu::lang.item.category_id'
+        span: auto
+        required: 1
+        type: dropdown
+    desc:
+        label: 'shohabbos.restaurantmenu::lang.item.desc'
+        size: huge
+        span: left
+        required: 1
+        type: richeditor
+    price:
+        label: 'shohabbos.restaurantmenu::lang.item.price'
+        span: auto
+        type: number
+    photos:
+        label: 'shohabbos.restaurantmenu::lang.item.photo'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: right
+        required: 1
+        type: fileupload

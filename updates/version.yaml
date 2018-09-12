@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table shohabbos_restaurantmenu_categories'
+    - builder_table_create_shohabbos_restaurantmenu_categories.php
+1.0.3:
+    - 'Created table shohabbos_restaurantmenu_items'
+    - builder_table_create_shohabbos_restaurantmenu_items.php
+1.0.4:
+    - 'Updated table shohabbos_restaurantmenu_categories'
+    - builder_table_update_shohabbos_restaurantmenu_categories.php
+1.0.5:
+    - 'Updated table shohabbos_restaurantmenu_items'
+    - builder_table_update_shohabbos_restaurantmenu_items.php
+1.0.6:
+    - 'Updated table shohabbos_restaurantmenu_items'
+    - builder_table_update_shohabbos_restaurantmenu_items_2.php

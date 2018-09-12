@@ -1,0 +1,20 @@
+fields:
+    title:
+        label: 'shohabbos.restaurantmenu::lang.category.title'
+        span: auto
+        required: 1
+        type: text
+    desc:
+        label: 'shohabbos.restaurantmenu::lang.category.desc'
+        span: auto
+        required: 1
+        type: text
+    photo:
+        label: 'shohabbos.restaurantmenu::lang.category.photo'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
