@@ -1,4 +1,4 @@
-<?php namespace shohabbos\RestaurantMenu;
+<?php namespace Shohabbos\RestaurantMenu;
 
 use System\Classes\PluginBase;
 

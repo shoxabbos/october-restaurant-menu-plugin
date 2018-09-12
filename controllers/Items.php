@@ -17,6 +17,6 @@ class Items extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('shohabbos.RestaurantMenu', 'restaurant', 'items');
+        BackendMenu::setContext('Shohabbos.RestaurantMenu', 'restaurant', 'items');
     }
 }

@@ -1,4 +1,4 @@
-<?php namespace shohabbos\RestaurantMenu\Models;
+<?php namespace Shohabbos\RestaurantMenu\Models;
 
 use Model;
 
@@ -31,7 +31,7 @@ class Item extends Model
     public $table = 'shohabbos_restaurantmenu_items';
 
     public $belongsTo = [
-        'category' => 'shohabbos\RestaurantMenu\Models\Category'
+        'category' => 'Shohabbos\RestaurantMenu\Models\Category'
     ];
 
     public function getCategoryIdOptions($keyValue = null) {

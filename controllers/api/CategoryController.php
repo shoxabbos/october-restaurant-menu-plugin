@@ -1,11 +1,11 @@
-<?php namespace shohabbos\RestaurantMenu\Controllers\Api;
+<?php namespace Shohabbos\RestaurantMenu\Controllers\Api;
 
 use Cms\Classes\Controller;
 use BackendMenu;
 
 use Illuminate\Http\Request;
-use shohabbos\RestaurantMenu\Helpers\Helpers;
-use shohabbos\RestaurantMenu\Models\Category;
+use Shohabbos\RestaurantMenu\Helpers\Helpers;
+use Shohabbos\RestaurantMenu\Models\Category;
 class CategoryController extends Controller
 {
     protected $Category;

@@ -1,5 +1,5 @@
 title: Categories
-modelClass: shohabbos\RestaurantMenu\Models\Category
+modelClass: Shohabbos\RestaurantMenu\Models\Category
 list: $/shohabbos/restaurantmenu/models/category/columns.yaml
 recordUrl: 'shohabbos/restaurantmenu/categories/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'

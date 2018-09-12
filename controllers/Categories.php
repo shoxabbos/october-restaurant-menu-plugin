@@ -17,6 +17,6 @@ class Categories extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('shohabbos.RestaurantMenu', 'restaurant', 'categories');
+        BackendMenu::setContext('Shohabbos.RestaurantMenu', 'restaurant', 'categories');
     }
 }

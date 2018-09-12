@@ -1,4 +1,4 @@
-<?php namespace shohabbos\RestaurantMenu\Models;
+<?php namespace Shohabbos\RestaurantMenu\Models;
 
 use Model;
 
@@ -31,6 +31,6 @@ class Category extends Model
     public $table = 'shohabbos_restaurantmenu_categories';
 
     public $hasMany = [
-        'items' => 'shohabbos\RestaurantMenu\Models\Item'
+        'items' => 'Shohabbos\RestaurantMenu\Models\Item'
     ];
 }

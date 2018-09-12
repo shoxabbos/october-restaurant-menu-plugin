@@ -1,5 +1,5 @@
 name: Categories
-modelClass: shohabbos\RestaurantMenu\Models\Category
+modelClass: Shohabbos\RestaurantMenu\Models\Category
 form: $/shohabbos/restaurantmenu/models/category/fields.yaml
 defaultRedirect: shohabbos/restaurantmenu/categories
 create:

@@ -1,5 +1,5 @@
 list: $/shohabbos/restaurantmenu/models/item/columns.yaml
-modelClass: shohabbos\RestaurantMenu\Models\Item
+modelClass: Shohabbos\RestaurantMenu\Models\Item
 title: Items
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true

@@ -1,4 +1,4 @@
-<?php namespace shohabbos\RestaurantMenu\Helpers;
+<?php namespace Shohabbos\RestaurantMenu\Helpers;
 
 Class Helpers {
 
