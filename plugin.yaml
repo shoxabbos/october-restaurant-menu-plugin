@@ -1,9 +1,9 @@
 plugin:
-    name: 'shohabbos.restaurantmenu::lang.plugin.name'
-    description: 'shohabbos.restaurantmenu::lang.plugin.description'
+    name: 'Restaurant menu'
+    description: 'Plugin allowed create menu for restaurant'
     author: Shohabbos
     icon: oc-icon-columns
-    homepage: ''
+    homepage: 'https://github.com/shoxabbos/october-restaurant-menu-plugin'
 permissions:
     shohabbos.restaurantmenu.manage_category:
         tab: 'shohabbos.restaurantmenu::lang.plugin.name'

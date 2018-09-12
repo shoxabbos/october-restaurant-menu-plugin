@@ -4,8 +4,8 @@ columns:
         type: text
         searchable: true
         sortable: true
-    desc:
-        label: 'shohabbos.restaurantmenu::lang.item.desc'
+    mini_desc:
+        label: 'shohabbos.restaurantmenu::lang.item.mini_desc'
         type: text
         searchable: true
         sortable: true

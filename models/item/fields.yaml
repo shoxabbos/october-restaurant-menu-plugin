@@ -1,24 +1,25 @@
 fields:
     title:
         label: 'shohabbos.restaurantmenu::lang.item.title'
-        span: auto
+        span: left
         required: 1
         type: text
-    category_id:
-        label: 'shohabbos.restaurantmenu::lang.item.category_id'
-        span: auto
-        required: 1
-        type: dropdown
     desc:
         label: 'shohabbos.restaurantmenu::lang.item.desc'
         size: huge
+        span: right
+        required: 0
+        type: richeditor
+    category_id:
+        label: 'shohabbos.restaurantmenu::lang.item.category_id'
         span: left
         required: 1
-        type: richeditor
-    price:
-        label: 'shohabbos.restaurantmenu::lang.item.price'
-        span: auto
-        type: number
+        type: dropdown
+    mini_desc:
+        label: 'shohabbos.restaurantmenu::lang.item.mini_desc'
+        size: large
+        span: left
+        type: textarea
     photos:
         label: 'shohabbos.restaurantmenu::lang.item.photo'
         mode: image
@@ -29,3 +30,7 @@ fields:
         span: right
         required: 1
         type: fileupload
+    price:
+        label: 'shohabbos.restaurantmenu::lang.item.price'
+        span: left
+        type: number
