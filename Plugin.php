@@ -6,6 +6,10 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'Shohabbos\RestaurantMenu\Components\Items' => 'menuItems',
+            'Shohabbos\RestaurantMenu\Components\Categories' => 'menuCategories',
+        ];
     }
 
     public function registerSettings()

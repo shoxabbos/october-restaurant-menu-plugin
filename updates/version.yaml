@@ -18,3 +18,9 @@
 1.0.7:
     - 'Updated table shohabbos_restaurantmenu_items'
     - builder_table_update_shohabbos_restaurantmenu_items_3.php
+1.0.8:
+    - 'Updated table shohabbos_restaurantmenu_categories'
+    - builder_table_update_shohabbos_restaurantmenu_categories_2.php
+1.0.9:
+    - 'Added two new components'
+    - builder_table_update_shohabbos_restaurantmenu_items_4.php

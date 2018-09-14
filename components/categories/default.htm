@@ -1,0 +1,7 @@
+{% if __SELF__.categories %}
+    <ul class="category-list">
+        {% for category in categories %}
+		    <li><a href="{{ category.url }}"> {{ category.title }} </a>
+		{% endfor %}
+    </ul>
+{% endif %}

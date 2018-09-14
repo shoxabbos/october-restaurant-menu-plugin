@@ -1,12 +1,7 @@
 fields:
     title:
         label: 'shohabbos.restaurantmenu::lang.category.title'
-        span: auto
-        required: 1
-        type: text
-    desc:
-        label: 'shohabbos.restaurantmenu::lang.category.desc'
-        span: auto
+        span: left
         required: 1
         type: text
     photo:
@@ -18,3 +13,17 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    slug:
+        label: 'shohabbos.restaurantmenu::lang.category.slug'
+        span: left
+        disabled: 0
+        defaultFrom: title
+        preset:
+            field: title
+            type: slug
+        type: text
+    desc:
+        label: 'shohabbos.restaurantmenu::lang.category.desc'
+        size: small
+        span: left
+        type: textarea

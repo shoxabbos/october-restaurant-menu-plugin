@@ -4,6 +4,13 @@ fields:
         span: left
         required: 1
         type: text
+    slug:
+        label: 'shohabbos.restaurantmenu::lang.item.slug'
+        span: right
+        preset:
+            field: title
+            type: slug
+        type: text
     desc:
         label: 'shohabbos.restaurantmenu::lang.item.desc'
         size: huge
@@ -15,6 +22,10 @@ fields:
         span: left
         required: 1
         type: dropdown
+    price:
+        label: 'shohabbos.restaurantmenu::lang.item.price'
+        span: left
+        type: number
     mini_desc:
         label: 'shohabbos.restaurantmenu::lang.item.mini_desc'
         size: large
@@ -30,7 +41,3 @@ fields:
         span: right
         required: 1
         type: fileupload
-    price:
-        label: 'shohabbos.restaurantmenu::lang.item.price'
-        span: left
-        type: number

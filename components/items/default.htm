@@ -1,0 +1,40 @@
+{% set items = __SELF__.items %}
+
+<ul class="post-list">
+    {% for item in items %}
+    <li>
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+
+        <p class="info">
+            Posted
+            {% if item.categories.count %} in {% endif %}
+            {% for category in item.categories %}
+            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            on {{ item.published_at|date('M d, Y') }}
+        </p>
+
+        <p class="excerpt">{{ item.summary|raw }}</p>
+    </li>
+    {% else %}
+    <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if items.lastPage > 1 %}
+<ul class="pagination">
+    {% if items.currentPage > 1 %}
+    <li><a href="{{ this.page.baseFileName|page({ (pageParam): (items.currentPage-1) }) }}">&larr; Prev</a></li>
+    {% endif %}
+
+    {% for page in 1..items.lastPage %}
+    <li class="{{ items.currentPage == page ? 'active' : null }}">
+        <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+    </li>
+    {% endfor %}
+
+    {% if items.lastPage > items.currentPage %}
+    <li><a href="{{ this.page.baseFileName|page({ (pageParam): (items.currentPage+1) }) }}">Next &rarr;</a></li>
+    {% endif %}
+</ul>
+{% endif %}
