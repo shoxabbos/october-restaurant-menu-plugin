@@ -1,7 +1,7 @@
 <?php return [
     'plugin' => [
         'name' => 'Restaurant menu',
-        'description' => 'Restaurant menu',
+        'description' => 'This plugin allows to create menu items and categories, useful for restaurants',
     ],
     'category' => [
         'title' => 'Title',
@@ -27,10 +27,9 @@
         'category_description' => 'Displays a list of menu categories on the page.',
         'category_page' => 'Category page',
         'category_page_description' => 'Name of the category page file for the category links. This property is used by the default component partial.',
-
         'items_title' => 'List items',
         'items_description' => 'Displays a list of latest menu items on the page.',
         'items_page' => 'Item page',
         'items_page_description' => 'Name of the blog item page file for the "More..." links. This property is used by the default component partial.',
-    ]
+    ],
 ];
