@@ -8,8 +8,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'shoxabbos.restaurantmenu::lang.plugin.name',
-            'description' => 'shoxabbos.restaurantmenu::lang.plugin.description',
+            'name'        => 'shohabbos.restaurantmenu::lang.plugin.name',
+            'description' => 'shohabbos.restaurantmenu::lang.plugin.description',
             'author'      => 'Shohabbos Olimjonov',
             'icon'        => 'icon-columns',
             'homepage'    => 'https://github.com/shoxabbos/october-restaurant-menu-plugin'
