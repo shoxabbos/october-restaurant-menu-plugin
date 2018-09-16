@@ -11,24 +11,24 @@ fields:
             field: title
             type: slug
         type: text
-    desc:
-        label: 'shohabbos.restaurantmenu::lang.item.desc'
-        size: huge
-        span: right
-        required: 0
-        type: richeditor
     category_id:
         label: 'shohabbos.restaurantmenu::lang.item.category_id'
         span: left
         required: 1
         type: dropdown
+    desc:
+        label: 'shohabbos.restaurantmenu::lang.item.desc'
+        size: large
+        span: right
+        type: textarea
     price:
         label: 'shohabbos.restaurantmenu::lang.item.price'
         span: left
+        required: 1
         type: number
     mini_desc:
         label: 'shohabbos.restaurantmenu::lang.item.mini_desc'
-        size: large
+        size: small
         span: left
         type: textarea
     photos:
