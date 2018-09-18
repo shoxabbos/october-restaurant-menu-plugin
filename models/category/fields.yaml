@@ -27,3 +27,9 @@ fields:
         size: small
         span: left
         type: textarea
+    parent_id:
+        label: 'shohabbos.restaurantmenu::lang.category.parent_id'
+        span: left
+        default: null
+        type: dropdown
+        emptyOption: -- no status --

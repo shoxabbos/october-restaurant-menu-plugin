@@ -10,6 +10,7 @@
         'manage_category' => 'Manage category',
         'backend_menu_lable' => 'Categories',
         'slug' => 'Slug',
+        'parent_id' => 'Parent category',
     ],
     'item' => [
         'title' => 'Title',

@@ -25,12 +25,12 @@ class ItemController extends Controller
                 array(
                     'photos'=>function($query){
                         $query->select('*');
-                    },
-                    'category'=>function($query){
-		                $query->select('*');
-		            },
+                    }
                 )
             )->select('*')->get()->toArray();
+
+        dump($data);
+
         return $this->helpers->apiArrayResponseBuilder(200, 'success', $data);
     }
 

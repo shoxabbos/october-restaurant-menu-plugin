@@ -9,3 +9,10 @@ columns:
         type: text
         searchable: true
         sortable: true
+    parent_id:
+        label: 'shohabbos.restaurantmenu::lang.category.parent_id'
+        type: number
+        searchable: true
+        sortable: true
+        relation: parent
+        valueFrom: title

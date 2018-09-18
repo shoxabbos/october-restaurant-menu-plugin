@@ -22,5 +22,8 @@
     - 'Updated table shohabbos_restaurantmenu_categories'
     - builder_table_update_shohabbos_restaurantmenu_categories_2.php
 1.0.9:
-    - 'Added two new components'
+    - 'Updated table shohabbos_restaurantmenu_items'
     - builder_table_update_shohabbos_restaurantmenu_items_4.php
+1.0.10:
+    - 'Updated table shohabbos_restaurantmenu_categories'
+    - builder_table_update_shohabbos_restaurantmenu_categories_3.php

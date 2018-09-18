@@ -21,29 +21,19 @@ class CategoryController extends Controller
 
     
     public function index(){ 
-        $data = $this->Category->with(
-                array(
-                    'photo'=>function($query){
-                        $query->select('*');
-                    }
-                )
-            )->select('*')->get()->toArray();
+        $data = $this->Category->with(['photo', 'childs.photo'])
+            ->select('*')
+            ->get()->toArray();
+
         return $this->helpers->apiArrayResponseBuilder(200, 'success', $data);
     }
 
     
     public function show($id){ 
-        $data = $this->Category->with(array(
-            'items'=>function($query){
-                $query->select('*')->with([
-                    'photos'=>function($query){
-                        $query->select('*');
-                    }
-                ]);
-            },
-            'photo'=>function($query){
-                $query->select('*');
-            }, ))->select('*')->where('id', '=', $id)->first();
+        $data = $this->Category->with(['items', 'items.photos', 'photo'])
+            ->select('*')
+            ->where('id', '=', $id)->first();
+
         return $this->helpers->apiArrayResponseBuilder(200, 'success', $data);
     }
 
